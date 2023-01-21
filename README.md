@@ -1,24 +1,17 @@
-# README
+# ChirptTalk Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was created for educational purposes to learn and practice the basics and the new thing related to Ruby on Rails 7.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- Ruby 3.1.2
+- Rails 7.0.4
+- Postgres 12
 
-* System dependencies
+## Installation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repository with `git clone git@github.com:your_username/chirptTalk.git`
+2. Install the dependencies with `bundle install`
+3. Create and migrate the database with `rails db:create db:migrate`
+5. Start the server with `bin/dev` to load TailwindCSS styles
+6. Go to localhost:3000 in your browser to see the application running
